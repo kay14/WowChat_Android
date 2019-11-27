@@ -7,7 +7,6 @@
 [stars-url]: https://github.com/kay14/WowChat_Android/stargazers
 [issues-shield]: https://img.shields.io/github/issues/kay14/WowChat_Android.svg?style=flat-square
 [issues-url]: https://github.com/kay14/WowChat_Android/issues
-[product-screenshot]: image/screenshot.png
 
 
 <!-- PROJECT SHIELDS -->
@@ -47,24 +46,18 @@
   * [Add framework to your project](#add-framework-to-your-project)
 * [Usage](#usage)
   * [Add Firebase to your project](#add-firebase-to-your-project)
-    * [Create a Firebase Project](#create-a-firebase-project)
-    * [Register your app with Firebase](#register-your-app-with-firebase)
-    * [Add a Firebase configuration file](#add-a-firebase-configuration-file)
   * [Initialize Framework](#initialize-framework)
   * [Set user](#set-user)
   * [Present conversation list](#present-conversation-list)
   * [Present conversation detail](#present-conversation-detail)
 * [Public methods in the Framework](#public-methods-in-the-framework)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 The **WowChat SDK** has been built using the [Firebase Realtime Database](https://firebase.google.com/docs/database). It is an open source framework which lets you add chat functionality to your existing Android application. It is easy to integrate and provides you with a couple of basic chat functionalities out of the box along with the user interface. Some of the key features include:
 
@@ -77,8 +70,8 @@ The **WowChat SDK** has been built using the [Firebase Realtime Database](https:
 - Allows user to forward messages to other users through the app
 - Allows user to share message with other user using other 3rd party app such as WhatsApp, Facebook, etc.
 
-----------
 
+<!-- Integration -->
 ## Integration
 
 Follow the steps below to integrate the WowChat SDK framework into your project.
@@ -92,8 +85,8 @@ Follow the steps below to integrate the WowChat SDK framework into your project.
 - Select the module `wowchat` to be added as dependency and assign **“implementation“** as the scope to this new dependency.
 - Click **OK** and complete the process. Your app should build again.
 
-----------
 
+<!-- Usage -->
 ## Usage
 
 ### Add Firebase to your project
@@ -209,8 +202,8 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
                 });
   ```
  
-----------
 
+<!-- Public methods in the Framework -->
 ## Public methods in the Framework
 
 | Method 		| Description                    			|
@@ -260,26 +253,21 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
 | `typing(String iConversationID)` | Sets typing status for a conversation |
 | `updateMessageStatus(Message iMessage, int iStatus)` | Updates message status to READ or DELIVERED |
 
-----------
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-----------
-
-<!-- LICENSE -->
-## License
-
-
-----------
+`TODO: Add steps to contribute to this project`
 
 <!-- CONTACT -->
 ## Contact
 
-
-----------
+`TODO: Add the necessary contact details`
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+
+`TODO: Add acknowledgements`
 
