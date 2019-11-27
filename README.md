@@ -201,7 +201,7 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
                     }
                 });
   ```
- 
+
 
 <!-- Public methods in the Framework -->
 ## Public methods in the Framework
