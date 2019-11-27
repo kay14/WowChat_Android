@@ -1,11 +1,11 @@
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/kay14/WowChat_Android.svg?style=flat-square
 [contributors-url]: https://github.com/kay14/WowChat_Android/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/kay14/WowChat_Android.svg?style=flat-square
 [forks-url]: https://github.com/kay14/WowChat_Android/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/kay14/WowChat_Android.svg?style=flat-square
 [stars-url]: https://github.com/kay14/WowChat_Android/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/kay14/WowChat_Android.svg?style=flat-square
 [issues-url]: https://github.com/kay14/WowChat_Android/issues
 
 
@@ -19,7 +19,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
+  <a href="https://github.com/kay14/WowChat_Android">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -28,14 +28,14 @@
   <p align="center">
     An open souce Chat SDK powered by the crafty team @ WowLabz
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kay14/WowChat_Android"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
+    <a href="https://github.com/kay14/WowChat_Android">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://github.com/kay14/WowChat_Android/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://github.com/kay14/WowChat_Android/issues">Request Feature</a>
   </p>
 </p>
 
