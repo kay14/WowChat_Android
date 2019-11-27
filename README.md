@@ -1,4 +1,4 @@
-# WowChat SDK
+# WowChat SDK (Android)
 
 The **WowChat SDK** has been built using the [Firebase Realtime Database](https://firebase.google.com/docs/database). It is an open source framework which lets you add chat functionality to your existing Android application. It is easy to integrate and provides you with a couple of basic chat functionalities out of the box along with the user interface. Some of the key features include:
 
