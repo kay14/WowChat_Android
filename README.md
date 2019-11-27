@@ -56,6 +56,7 @@
   * [Present conversation detail](#present-conversation-detail)
 * [Public methods in the Framework](#public-methods-in-the-framework)
 * [Contributing](#contributing)
+* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -260,3 +261,25 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
 | `updateMessageStatus(Message iMessage, int iStatus)` | Updates message status to READ or DELIVERED |
 
 ----------
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+
+----------
+
+<!-- LICENSE -->
+## License
+
+
+----------
+
+<!-- CONTACT -->
+## Contact
+
+
+----------
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
