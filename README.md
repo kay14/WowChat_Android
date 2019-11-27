@@ -7,6 +7,7 @@
 [stars-url]: https://github.com/kay14/WowChat_Android/stargazers
 [issues-shield]: https://img.shields.io/github/issues/kay14/WowChat_Android.svg?style=flat-square
 [issues-url]: https://github.com/kay14/WowChat_Android/issues
+[product-screenshot]: image/screenshot.png
 
 
 <!-- PROJECT SHIELDS -->
@@ -42,16 +43,27 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+* [Integration](#integration)
+  * [Add framework to your project](#add-framework-to-your-project)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
+  * [Add Firebase to your project](#add-firebase-to-your-project)
+    * [Create a Firebase Project](#create-a-firebase-project)
+    * [Register your app with Firebase](#register-your-app-with-firebase)
+    * [Add a Firebase configuration file](#add-a-firebase-configuration-file)
+  * [Initialize Framework](#initialize-framework)
+  * [Set user](#set-user)
+  * [Present conversation list](#present-conversation-list)
+  * [Present conversation detail](#present-conversation-detail)
+* [Public methods in the Framework](#public-methods-in-the-framework)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 The **WowChat SDK** has been built using the [Firebase Realtime Database](https://firebase.google.com/docs/database). It is an open source framework which lets you add chat functionality to your existing Android application. It is easy to integrate and provides you with a couple of basic chat functionalities out of the box along with the user interface. Some of the key features include:
 
@@ -68,7 +80,9 @@ The **WowChat SDK** has been built using the [Firebase Realtime Database](https:
 
 ## Integration
 
-### Adding the framework into your project:
+Follow the steps below to integrate the WowChat SDK framework into your project.
+
+### Add framework to your project
 - Open your project in Android Studio.
 - Download the library `wowchat` (using Git, or a zip archive to unzip).
 - Go to **File** → **New** → **Import Module** and specify the source directory to import the library as a module.
@@ -81,18 +95,18 @@ The **WowChat SDK** has been built using the [Firebase Realtime Database](https:
 
 ## Usage
 
-### Add Firebase to your project:
-- **Create a Firebase Project:**
+### Add Firebase to your project
+- **Create a Firebase Project**
   - In the [Firebase console](https://console.firebase.google.com/), click **Add project**, then select or enter a **Project name**. If you have an existing Google Cloud Platform (GCP) project, you can select the project from the dropdown menu to add Firebase resources to that project.
   - Click **Continue**.
   - Click **Create project** (or **Add Firebase**, if you're using an existing GCP project).
   
-- **Register your app with Firebase:**
+- **Register your app with Firebase**
   - Open your newly created Firebase project, and in the **Firebase console's project overview page**, click the **Android icon** to launch the setup workflow. If you've already added an app to your Firebase project, click **Add app** to display the platform options.
   - Enter your app's `package name` in the **Android package name** field.
   - Click **Register app**.
   
-- **Add a Firebase configuration file:**
+- **Add a Firebase configuration file**
   - Click **Download google-services.json** to obtain your Firebase Android config file (`google-services.json`).
   - Move your config file into the module (app-level) directory of your app.
   - To enable Firebase products in your app, add the **google-services plugin** to your Gradle files.
@@ -139,7 +153,7 @@ The **WowChat SDK** has been built using the [Firebase Realtime Database](https:
 > **NOTE:** As the required Firebase frameworks are included inside the WowChat framework itself, you don't have to include the Firebase SDK's in your app and initialize them.
 If you wish to read further about the Firebase SDK [click here](https://firebase.google.com/docs).
   
-### Initialize Framework:
+### Initialize Framework
 - In your `Application.java` class:
   - Import `com.wowlabz.chat.ChatSDK` and `com.wowlabz.chat.WowChatApplication`.
   - Extend it from the `WowChatApplication` class
@@ -159,7 +173,7 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
   }  
   ```
 
-### Set user:
+### Set user
 - In your `Activity` class, set the user object before presenting the conversation list or detail screen.
 
   Sample Code:
@@ -171,7 +185,7 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
   ChatSDK.getInstance().setUser(aUser);
   ```
 
-### Present the conversation list screen:
+### Present conversation list
 - In your `Activity` class, you can present the conversation list screen (after you have set the user object) to view the list of conversation you have had with other users.
   
   Sample Code:
@@ -179,7 +193,7 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
   ChatSDK.getInstance().presentInbox();
   ```
 
-### Present the conversation detail screen:
+### Present conversation detail
 - In your `Activity` class, you can present the conversation detail screen (after you have set user object) to directly initiate chat with another user.
   
   Sample Code:
@@ -196,7 +210,7 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
  
 ----------
 
-## Public methods in the Framework:
+## Public methods in the Framework
 
 | Method 		| Description                    			|
 | ------------- | ------------------------------------- 	|
@@ -246,5 +260,3 @@ If you wish to read further about the Firebase SDK [click here](https://firebase
 | `updateMessageStatus(Message iMessage, int iStatus)` | Updates message status to READ or DELIVERED |
 
 ----------
-
-> For usage, checkout our sample app [samplechatandroid]() on **Github**
