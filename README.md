@@ -20,15 +20,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/kay14/WowChat_Android">
-    <img src="image/logo.png" alt="Logo" width="80" height="80">
+    <img src="image/logo.png" alt="Logo" width="135" height="43">
   </a>
 
   <h3 align="center">WowChat SDK (Android)</h3>
 
   <p align="center">
     An open souce Chat SDK powered by the crafty team @ WowLabz
-    <br />
-    <a href="https://github.com/kay14/WowChat_Android"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kay14/WowChat_Android">View Demo</a>
