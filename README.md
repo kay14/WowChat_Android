@@ -1,10 +1,59 @@
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/kay14/WowChat_Android/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/kay14/WowChat_Android/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/kay14/WowChat_Android/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/kay14/WowChat_Android/issues
+
+
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-# WowChat SDK (Android)
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/github_username/repo">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">WowChat SDK (Android)</h3>
+
+  <p align="center">
+    An open souce Chat SDK powered by the crafty team @ WowLabz
+    <br />
+    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo">View Demo</a>
+    ·
+    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+  </p>
+</p>
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 The **WowChat SDK** has been built using the [Firebase Realtime Database](https://firebase.google.com/docs/database). It is an open source framework which lets you add chat functionality to your existing Android application. It is easy to integrate and provides you with a couple of basic chat functionalities out of the box along with the user interface. Some of the key features include:
 
